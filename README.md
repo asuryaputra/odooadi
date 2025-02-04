@@ -14,7 +14,7 @@
   - docker start isberp17<br>
   - Buka Browser dan ketik http://localhost:8069<br>
 4. Install PgAdmin:<br>
-  - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=odoo” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4<br>
+  - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=odoo" -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4<br>
   - docker start pgadmin4<br>
   - Buka Browser dan ketik http://localhost:5050<br>
 5.Docker Terminal: <br>
