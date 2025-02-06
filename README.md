@@ -19,11 +19,11 @@
   - Buka Browser dan ketik http://localhost:5050<br>
 5.Docker Terminal: <br>
  - Masuk ke docker : 
-      - docker exec -u root -it erp14 /bin/bash
+      - docker exec -u root -it isberp17 /bin/bash
    - Copy new module:
-      - docker cp <nama_module> erp14:/mnt/extra-addons
-      - docker stop erp14
-      - docker start erp14
+      - docker cp <nama_module> isberp17:/mnt/extra-addons
+      - docker stop isberp17
+      - docker start isberp17
    - Perintah operasi pada docker:
       - Menampilkan list container pada docker dari terminal:
          -  docker container l --all 
@@ -33,9 +33,9 @@
 
 <b>Download:<b>
    
-1. https://apps.odoo.com/apps/modules/14.0/om_account_accountant/
+1. https://apps.odoo.com/apps/modules/17.0/om_account_accountant/
    
 2. https://odoo-community.org/shop/account-reconciliation-widget-8893#attr=14598
    
-3. https://apps.odoo.com/apps/modules/14.0/stock_no_negative/ 
+3. https://apps.odoo.com/apps/modules/17.0/stock_no_negative/ 
 
